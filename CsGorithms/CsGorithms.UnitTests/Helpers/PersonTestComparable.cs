@@ -6,6 +6,8 @@ namespace CsGorithms.UnitTests.Helpers
     {
         public int Age { get; set; }
 
+        public string Name { get; set; }
+
         public int CompareTo(PersonTestComparable? other)
         {
             return Age.CompareTo(other?.Age);
